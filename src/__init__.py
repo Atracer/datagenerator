@@ -1,0 +1,37 @@
+import logging
+import transformers
+
+# turn off unnecessary logging
+transformers.logging.set_verbosity_error()
+
+
+# logger initialization
+def set_logger(path, args):
+    # initialize logger
+    logger = logging.getLogger(__name__)
+    logging_format = logging.Formatter(
+        fmt='[%(levelname)s] (%(asctime)s) %(message)s',
+        datefmt='%Y/%m/%d %I:%M:%S %p'
+    )
+    stream_handler = logging.StreamHandler()
+    file_handler = logging.FileHandler()
+
+    stream_handler.setFormatter(logging_format)
+    file_handler.setFormatter(logging_format)
+
+    logger.addHandler(stream_handler)
+    logger.addHandler(file_handler)
+    logger.setLevel(level=logging.INFO)
+
+    # welcome message
+    logger.info('[WELCOME] Initialize...')
+    welcome_message = """
+    _______ _______ ______  _______  ______ _______ _______ _______ ______ 
+    |______ |______ |     \ |______ |_____/ |_____|    |    |______ |     \\
+    |       |_______|_____/_|_______|__ _\_ |_ ___|_ __|  _ |______ |_____/
+        |      |______ |_____| |_____/ | \  |   |   | \  | |  ____        
+        |_____ |______ |     | |    \_ |  \_| __|__ |  \_| |_____|        
+
+                        By. jimingyu 
+    """
+    logger.info(welcome_message)
