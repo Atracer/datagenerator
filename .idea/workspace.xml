@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15046872-8180-48c2-b229-c57573066f48" name="Changes" comment="new">
+    <list default="true" id="15046872-8180-48c2-b229-c57573066f48" name="Changes" comment="newm">
+      <change afterPath="$PROJECT_DIR$/src/client/baseclient.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/client/fedavgclient.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/loaders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/loaders/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/loaders/split.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +30,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Sj9CYwXqgrMNQLUGyaYYmUiOaC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -69,7 +78,7 @@
       <workItem from="1689649034895" duration="106000" />
       <workItem from="1689649329627" duration="326000" />
       <workItem from="1690247635208" duration="1360000" />
-      <workItem from="1690249478646" duration="6902000" />
+      <workItem from="1690249478646" duration="10285000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1690290502817</created>
@@ -85,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690293096139</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="newm">
+      <created>1690293810889</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690293810889</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +123,7 @@
       <path value="$PROJECT_DIR$/Federated-Learning-in-PyTorch" />
     </ignored-roots>
     <MESSAGE value="new" />
-    <option name="LAST_COMMIT_MESSAGE" value="new" />
+    <MESSAGE value="newm" />
+    <option name="LAST_COMMIT_MESSAGE" value="newm" />
   </component>
 </project>
