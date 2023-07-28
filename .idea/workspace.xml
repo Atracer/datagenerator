@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15046872-8180-48c2-b229-c57573066f48" name="Changes" comment="newm">
-      <change afterPath="$PROJECT_DIR$/src/client/baseclient.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/client/fedavgclient.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/loaders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/loaders/data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/loaders/split.py" afterDir="false" />
+    <list default="true" id="15046872-8180-48c2-b229-c57573066f48" name="Changes" comment="loaders">
+      <change afterPath="$PROJECT_DIR$/src/server/baseserver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/fedavgserver.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +73,7 @@
       <workItem from="1689649034895" duration="106000" />
       <workItem from="1689649329627" duration="326000" />
       <workItem from="1690247635208" duration="1360000" />
-      <workItem from="1690249478646" duration="10285000" />
+      <workItem from="1690249478646" duration="16778000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1690290502817</created>
@@ -101,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690293810889</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="loaders">
+      <created>1690363349555</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690363349556</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +126,7 @@
     </ignored-roots>
     <MESSAGE value="new" />
     <MESSAGE value="newm" />
-    <option name="LAST_COMMIT_MESSAGE" value="newm" />
+    <MESSAGE value="loaders" />
+    <option name="LAST_COMMIT_MESSAGE" value="loaders" />
   </component>
 </project>
